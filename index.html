@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Css Changes</title>
+	<link rel="stylesheet" type="text/css" href="slider.css">
+    <script src="slider.js"></script>
+</head>
+<body>
+
+<div class="content">
+	<div class="css-output">
+		<p id="rgbresulttext">rgb(255, 99, 71)</p>
+	</div>
+	<div class="slider">
+    <div class="w3-col">
+      <p>RED</p>
+      <input onchange="changeRGB()" oninput="changeRGB()" type="range" id="slideRed" name="slideRed" value="255" min="0" max="255">
+      <div id="valRed2">255</div>
+    </div>
+    <div class="w3-col">
+      <p>GREEN</p>
+      <input onchange="changeRGB()" oninput="changeRGB()" type="range" id="slideGreen" name="slideGreen" value="99" min="0" max="255">
+      <div id="valGreen2">99</div>
+    </div>
+    <div class="w3-col">
+      <p>BLUE</p>
+      <input onchange="changeRGB()" oninput="changeRGB()" type="range" id="slideBlue" name="slideBlue" value="71" min="0" max="255">
+      <div id="valBlue2">71</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

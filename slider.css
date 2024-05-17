@@ -1,0 +1,39 @@
+body{
+	background-color: white;
+	padding: 0;
+}
+
+.content{
+	display: flex;
+	justify-content: center;
+}
+
+.css-output{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    max-width: 600px;
+    max-height: 130px;
+    line-height: 80px;
+    background-color: rgb(255, 99, 71);
+}
+#rgbresulttext{
+    font-size: 120%;
+    font-weight: bold;
+    font-family: Consolas, "Courier New", Courier, monospace;
+    color: rgb(255, 255, 255);
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+.slider {
+	display: flex;
+	text-align: center;
+    max-width: 600px;
+    margin-top: 175px;
+}
+
+.w3-col {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+}
